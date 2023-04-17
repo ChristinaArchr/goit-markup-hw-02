@@ -52,7 +52,7 @@ body {
   color: var(--main-text-clr);
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.2;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
@@ -143,8 +143,13 @@ body {
 }
 
 .main-btn {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
   color: #fff;
   background-color: var(--btn-clr);
+  cursor:pointer;
 }
 
 .main-btn:focus,
@@ -219,6 +224,12 @@ body {
 .filter-btn {
   color: var(--btn-clr);
   background-color: var(--logo-clr);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  cursor:pointer;
+  letter-spacing: 0.04em;
 }
 
 .filter-btn:focus,
@@ -226,3 +237,4 @@ body {
   color: var(--main-background-clr);
   background-color: var(--activation);
 }
+
