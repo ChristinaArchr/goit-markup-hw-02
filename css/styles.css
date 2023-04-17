@@ -1,0 +1,228 @@
+:root {
+  /* Text Colors */
+  --main-text-clr: #2E2F42;
+  --secondary-text-clr: #434455;
+  --logo-clr: #f4f4fd;
+  --btn-clr: #4d5ae5;
+  --activation: #404bbf;
+
+  /* Background Colors */
+  --main-background-clr: #ffffff;
+
+  /* Fonts */
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+}
+
+/**
+  |============================
+  | BODY
+  |============================
+*/
+
+body {
+  background-color: var(--main-background-clr);
+  color: var(--secondary-text-clr);
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+
+/**
+  |============================
+  | THE SAME DATA
+  |============================
+*/
+
+.heading-text {
+  color: var(--main-text-clr);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.heading-title {
+  color: var(--main-text-clr);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.subtitle {
+  font-size: 16px;
+  color: var(--secondary-text-clr);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.button {
+  font-family: var(--secondary-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.nav-item:focus,
+.nav-item:hover,
+.address-item:focus,
+.address-item:hover {
+  color: var(--activation);
+}
+
+
+/* !!! INDEX PAGE !!! */
+
+/**
+  |============================
+  | Header Section
+  |============================
+*/
+
+.logo {
+  font-family: var(--secondary-font);
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--btn-clr);
+  text-transform: uppercase;
+}
+
+.header-logo {
+  color: var(--main-text-clr);
+}
+
+.nav-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--main-text-clr);
+}
+
+.address-list,
+.address-item {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--secondary-text-clr);
+}
+
+/**
+  |============================
+  | Hero Section
+  |============================
+*/
+
+.hero-section {
+  background-color: var(--main-text-clr);
+}
+.heading-main {
+  color: #fff;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.main-btn {
+  color: #fff;
+  background-color: var(--btn-clr);
+}
+
+.main-btn:focus,
+.main-btn:hover {
+  background-color: var(--activation);
+}
+
+/**
+  |============================
+  | About Us Section
+  |============================
+*/
+
+.goals {
+}
+
+.hidden {
+}
+
+/**
+  |============================
+  | What Are We Doing Section
+  |============================
+*/
+
+.section-summary {
+}
+
+/**
+  |============================
+  | Our Team Section
+  |============================
+*/
+
+.team-section {
+  background-color: var(--logo-clr);
+}
+
+.team-img {
+  background-color: var(--main-background-clr);
+}
+
+/**
+  |============================
+  | Footer Section
+  |============================
+*/
+
+.footer {
+  background-color: var(--main-text-clr);
+}
+
+.logo {
+}
+
+.footer-logo,
+.footer-text {
+  color: var(--logo-clr);
+}
+
+/* !!! PORTFOLIO PAGE !!! */
+
+/**
+  |============================
+  | Buttons Section
+  |============================
+*/
+
+.hidden {
+}
+
+.filter-btn {
+  color: var(--btn-clr);
+  background-color: var(--logo-clr);
+}
+
+.filter-btn:focus,
+.filter-btn:hover {
+  color: var(--main-background-clr);
+  background-color: var(--activation);
+}
