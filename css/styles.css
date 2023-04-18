@@ -42,18 +42,10 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 40px;
-  line-height: 1.11;
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-}
-
-.heading-title {
-  color: var(--main-text-clr);
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
 }
 
 .subtitle {
@@ -64,6 +56,7 @@ body {
 .list {
   list-style: none;
 }
+
 
 .link {
   text-decoration: none;
@@ -147,6 +140,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.04em;
   color: #fff;
   background-color: var(--btn-clr);
   cursor:pointer;
@@ -168,6 +162,16 @@ body {
 
 .hidden {
 }
+
+.heading-title-main {
+  color: var(--main-text-clr);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+
 
 /**
   |============================
@@ -212,19 +216,21 @@ body {
 
 /* !!! PORTFOLIO PAGE !!! */
 
-/**
-  |============================
-  | Buttons Section
-  |============================
-*/
+.heading-title-secondary {
+  color: var(--main-text-clr);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
 
 .hidden {
 }
 
 .filter-btn {
+  font-family: 'Roboto', sans-serif;
   color: var(--btn-clr);
   background-color: var(--logo-clr);
-  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -234,7 +240,7 @@ body {
 
 .filter-btn:focus,
 .filter-btn:hover {
-  color: var(--main-background-clr);
-  background-color: var(--activation);
+  color:  #FFFFFF ;
+  background-color:  #FFFFFF ;
 }
 
