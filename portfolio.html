@@ -19,57 +19,65 @@
 
   <body>
     <!-- Header section-->
-    <header>
-      <nav>
-        <a href="./index.html" class="logo link"
-          >Web<span class="header-logo">Studio</span></a
-        >
-        <ul class="list">
-          <li><a href="./index.html" class="nav-item link">Studio</a></li>
+    <header class="header">
+      <nav class="header-nav list">
+        <a class="logo link" href="./index.html" >Web<span class="header-logo">Studio</span></a>
+        <ul class="header-nav-list list">
+
+          <li class="header-nav-item list">
+            <a href="./index.html" class="header-nav-link link">Studio</a></li>
           <li>
-            <a href="./portfolio.html" class="nav-item link">Portfolio</a>
+            <a href="./portfolio.html" class="header-nav-link link">Portfolio</a>
           </li>
-          <li><a href="" class="nav-item link">Contacts</a></li>
+          <li>
+            <a href="" class="header-nav-link link">Contacts</a>
+          </li>
         </ul>
       </nav>
-      <address class="address-list">
-        <ul class="list">
-          <li>
-            <a class="address-item link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
+      <address class="header-contact">
+        <ul class="header-list list">
+          <li class="header-list-item list">
+            <a class="header-list-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
-          <li>
-            <a class="address-item link" href="tel:+110001111111"
-              >+11 (000) 111-11-11</a
-            >
+          <li class="header-list-item list">
+            <a class="header-list-link link" href="tel:+110001111111">+11 (000) 111-11-11</a>
           </li>
         </ul>
       </address>
     </header>
+
+    <!-- Buttons Section -->
     <main>
-      <!-- Buttons Section -->
-        <h1 hidden>Portfolio</h1>
-        <ul class="list">
-          <li><button class="filter-btn" type="button">All</button></li>
-          <li><button class="filter-btn" type="button">Web Site</button></li>
-          <li><button class="filter-btn" type="button">App</button></li>
-          <li><button class="filter-btn" type="button">Design</button></li>
-          <li>
-            <button class="filter-btn" type="button">Marketing</button>
-          </li>
-        </ul>
-        <!-- Galery List Section-->
-        <section>
-        <ul class="list">
-          <li>
-            <a href="" class="link">
-              <img
+      <section class="portfolio">
+      <h1 hidden class="portfolio-title visually-hidden">Portfolio</h1>
+      <ul class="portfolio-list list">
+        <li class="portfolio-list-item list">
+          <button class="filter-btn button-text" type="button">All</button>
+        </li>
+        <li class="portfolio-list-item list">
+          <button class="filter-btn button-text" type="button">Web Site</button>
+        </li>
+        <li class="portfolio-list-item list">
+          <button class="filter-btn button-text" type="button">App</button>
+        </li>
+        <li class="portfolio-list-item list">
+          <button class="filter-btn button-text" type="button">Design</button>
+        </li>
+        <li class="portfolio-list-item list">
+          <button class="filter-btn button-text" type="button">Marketing</button>
+        </li>
+      </ul>
+      <!-- Galery List Section-->
+        <ul class="galery-list list">
+          <li class="galery-list-item list">
+              <img class="galery-list-img"
                 src="./images/images-portfolio/project-cards/img-1.jpg"
-                alt="Banking App Interface Concept image"
                 width="360"
+                alt="Banking App Interface Concept image"
               />
-              <h2 class="heading-title-secondary">Banking App Interface Concept</h2>
+              <h2 class="heading-title-secondary">
+                Banking App Interface Concept
+              </h2>
               <p class="subtitle">App</p></a
             >
           </li>

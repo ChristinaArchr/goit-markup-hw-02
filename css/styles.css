@@ -1,13 +1,12 @@
 :root {
-  /* Text Colors */
+  /* Colors */
   --main-text-clr: #2E2F42;
   --secondary-text-clr: #434455;
   --logo-clr: #f4f4fd;
   --btn-clr: #4d5ae5;
   --activation: #404bbf;
-
-  /* Background Colors */
   --main-background-clr: #ffffff;
+
 
   /* Fonts */
   --main-font: "Roboto", sans-serif;
@@ -29,6 +28,28 @@ body {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
+}
+
+.visually-hidden {
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	border: 0;
+	padding: 0;
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	margin: -1px;
+}
+
+.button-text {
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.5;
+	letter-spacing: 0.04em;
+	border: none;
 }
 
 /**
@@ -71,10 +92,10 @@ body {
   cursor: pointer;
 }
 
-.nav-item:focus,
-.nav-item:hover,
-.address-item:focus,
-.address-item:hover {
+.header-nav-link:focus,
+.header-nav-link:hover,
+.header-list-link:focus,
+.header-list-link:hover {
   color: var(--activation);
 }
 
@@ -102,15 +123,15 @@ body {
   color: var(--main-text-clr);
 }
 
-.nav-item {
+.header-nav-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   color: var(--main-text-clr);
 }
 
-.address-list,
-.address-item {
+.header-contact,
+.header-list-link {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -218,6 +239,18 @@ body {
 
 /* !!! PORTFOLIO PAGE !!! */
 
+.filter-btn {
+	color:var(--btn-clr);
+	background-color:var(--logo-clr);
+	cursor: pointer;
+}
+.filter-btn:hover,
+.filter-btn:focus{
+	color:var(--main-background-clr);
+	background-color: var(--activation) ;
+
+
+
 .heading-title-secondary {
   color: var(--main-text-clr);
   font-weight: 500;
@@ -246,3 +279,6 @@ body {
   background-color:  #FFFFFF ;
 }
 
+.portfolio-title{
+  color: var(--secondary-text-clr)
+}
